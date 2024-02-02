@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Routing
+1. Path Constants (add the actual path for the url)
+2. Create a Grid.js component
+3. Update routes/index.js add a variable for lazy importing the Grid page and add to the routes list being exported.
