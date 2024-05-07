@@ -26,6 +26,9 @@ export default function Header() {
             <li className="nav-item">
               <Link to={PathConstants.GRIDSVG}>SVG Grid</Link>
             </li>
+                      <li className="nav-item">
+              <Link to={PathConstants.DUNGEON}>Dungeon</Link>
+            </li>
           </ul>
         </nav>
       </div>

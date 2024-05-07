@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script src="BuildDungeon.js" type="text/javascript"></script>
+<script type="text/javascript">
+    const rooms = 20;
+    const width = 1000;
+    const height = 500;
+</script>
+</head>
+<body>
+
+    <div onLoad={buildGrid()}>
+        <h1>Dungeon page</h1>
+        <button onClick="buildDungeon(rooms)">Add Rooms</button>
+        <input id="rooms" value=20 />
+        <input id="width" value=1000 />
+        <input id="height" value=500 />
+        <svg id="svgCanvas" width=1000 height=500 style="border: '1px solid black', margin: '10px', backgroundColor:'black'" >
+            <clipPath id="cutoutClipPath"></clipPath>
+        </svg>
+    </div>
+
+</body>
+</html>

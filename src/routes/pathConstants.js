@@ -5,6 +5,7 @@ const PathConstants = {
     ABOUT: "about",
     GRID: "grid",
     GRIDSVG: "gridsvg",
+    DUNGEON: "dungeon",
 }
 
-export default PathConstants
+export default PathConstants;

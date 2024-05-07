@@ -8,7 +8,10 @@ const About = React.lazy(() => import("../pages/About"))
 const Grid = React.lazy(() => import("../pages/Grid"))
 const GridSVG = React.lazy(() => import("../pages/GridSVG"))
 
+const Dungeon = React.lazy(() => import('../pages/Dungeon'))
 const routes = [
+    { path: PathConstants.DUNGEON, element: <Dungeon /> },
+
     { path: PathConstants.HOME, element: <Home /> },
     { path: PathConstants.TEAM, element: <Team /> },
     { path: PathConstants.PORTFOLIO, element: <Portfolio /> },
