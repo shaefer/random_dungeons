@@ -1,3 +1,7 @@
+npm start
+then go to /gridsvg for the most up to date one.
+you can also hit /grid for the one made with canvas that I abandoned. SVG worked much better for my purposes
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
